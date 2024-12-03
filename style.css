@@ -1,0 +1,83 @@
+.cart-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.product-card
+{
+    height: 280px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius:10px;
+    img{
+        min-height: 140px;
+    }
+    label{
+        font-size: 10px;
+        background-color: rgba(173, 216, 230, 0.3);
+        border-radius: 10px;
+        padding: 2px;
+        width: 70px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 10px;
+    }
+    h6{
+        font-size: 14px;
+        margin-block: 10px;
+        padding-inline: 10px;
+    }
+    p{
+        font-weight: 400;
+        color: gray;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .card-footer{
+        margin-inline: 20px;
+        height: 35px;
+        span{
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 35px;
+        }
+        
+        
+        
+    }
+}
+.product-card button {
+    border: 1px solid green;
+            background-color: transparent;
+            color: green;
+            border-radius: 10px;
+            width: 60px;
+            font-weight: 600;
+            font-size: 14px;
+}
+.product-card button:hover{
+    background-color: green;
+    color: white;
+}
+.footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    ul{
+        margin-top: 30px;
+        color: gray;
+        li{
+            list-style-type: none;
+            margin-left: -20px;
+            margin-block: 5px;
+        }
+    }
+}
+.bottom-footer {
+    i{
+        font-size: 32px;
+        padding-left: 20px;
+    }
+}
